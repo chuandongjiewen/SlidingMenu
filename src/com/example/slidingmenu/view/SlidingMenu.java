@@ -103,6 +103,7 @@ public class SlidingMenu extends RelativeLayout {
 		mDetailView = view;
 	}
 
+	@SuppressWarnings("deprecation")
 	public void setCenterView(View view) {
 		LayoutParams aboveParams = new LayoutParams(LayoutParams.FILL_PARENT,
 				LayoutParams.FILL_PARENT);
